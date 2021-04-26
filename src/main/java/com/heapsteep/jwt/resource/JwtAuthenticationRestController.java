@@ -25,7 +25,7 @@ import com.heapsteep.jwt.JwtTokenUtil;
 import com.heapsteep.jwt.JwtUserDetails;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+//@CrossOrigin(origins="http://localhost:4200")
 public class JwtAuthenticationRestController {
 
   @Value("${jwt.http.request.header}")
